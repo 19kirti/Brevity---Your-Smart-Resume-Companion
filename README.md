@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AI-Powered Resume & JD Summarizer
 
-## Getting Started
+An intelligent tool that helps job seekers generate **customized resume summaries and cover letters** by analyzing job descriptions and resumes using the **Gemini API**. Supports both **text input and file uploads**, making it easier to tailor applications for specific roles.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✍️ Generates **personalized resume summaries** based on job descriptions
+- 📄 Accepts **text or file input** (PDF/DOC) for resumes and JDs
+- 🤖 Powered by **Gemini API** for AI-driven content generation
+- 📬 Creates **ATS-friendly cover letters** with keyword-rich summaries
+- ⚠️ Includes **error handling** and **loading indicators** for smoother UX
+- 💡 Clean and responsive UI for better usability
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Frontend**: HTML, Tailwind CSS, JavaScript, Next.js, Framer Motion
+- **AI Integration**: Gemini API (Google Generative AI)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📌 How It Works
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Upload or paste your **resume** and **job description**
+2. Click **Generate**
+3. Instantly receive a **custom summary and cover letter**
+4. Use them to enhance your job applications
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Use Cases
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Students applying for internships or jobs
+- Professionals tailoring resumes for specific roles
+- Job platforms integrating AI-powered resume tools
+
+---
+
+## 📷 Screenshots
+
+
+
+---
+
+## 🔮 Future Improvements
+
+- LinkedIn profile parsing support
+- Downloadable summaries and cover letters
+- Dark mode Toggle
+
+---
+
+## 📃 License
+
+This project is for personal and educational use only.  
+Feel free to fork, contribute, and expand its capabilities!
+
+---
