@@ -6,9 +6,9 @@ export default function About() {
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden mb-8">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-purple-600 to-blue-600 px-8 py-12 text-center">
-        <h1 className="text-4xl font-bold text-white mb-4">Resume Job Summarizer</h1>
+        <h1 className="text-4xl font-bold text-white mb-4">Brevity - Your Resume Companion</h1>
         <p className="text-xl text-purple-100 max-w-2xl mx-auto">
-          Transform your job applications with AI-powered resume optimization and personalized cover letters
+          Transform your job applications with smart resume optimization and personalized cover letters
         </p>
       </div>
 

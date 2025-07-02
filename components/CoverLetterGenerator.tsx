@@ -52,10 +52,10 @@ export default function CoverLetterGenerator({ summary, resume, jobDescription }
   };
 
   return (
-    <div className="bg-white py-8 dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
+    <div className="bg-white py-12 dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
       <div className="bg-gradient-to-r from-green-700 to-blue-600 px-8 py-6 rounded-2xl shadow-xl">
-        <h2 className="text-2xl font-bold text-white">Cover Letter Generator</h2>
-        <p className="text-purple-100">Create a personalized cover letter</p>
+        <h2 className="text-2xl text-center font-bold text-white">Cover Letter Generator</h2>
+        <p className="text-purple-100 text-center">Create a personalized cover letter</p>
       </div>
 
       <div className="p-8">
@@ -108,7 +108,7 @@ export default function CoverLetterGenerator({ summary, resume, jobDescription }
             <button
               onClick={generateCoverLetter}
               disabled={isLoading}
-              className="w-full px-6 py-3 bg-gradient-to-r from-green-700 to-blue-600 text-white rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 disabled:bg-gray-400"
+              className="w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 disabled:bg-gray-400"
             >
               {isLoading ? 'Generating...' : 'Generate Cover Letter'}
             </button>
