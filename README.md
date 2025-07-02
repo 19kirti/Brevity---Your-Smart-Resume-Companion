@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Resume & JD Summarizer
+# 🧠 Brevity : A Smart Job Application Tool
 
 An intelligent tool that helps job seekers generate **customized resume summaries and cover letters** by analyzing job descriptions and resumes using the **Gemini API**. Supports both **text input and file uploads**, making it easier to tailor applications for specific roles.
 
@@ -14,6 +14,13 @@ An intelligent tool that helps job seekers generate **customized resume summarie
 - 💡 Clean and responsive UI for better usability
 
 ---
+
+## 📷 Screenshots
+
+![alt text](<Brevity WebApp-1.png>)
+
+---
+
 
 ## 🛠️ Tech Stack
 
@@ -39,11 +46,6 @@ An intelligent tool that helps job seekers generate **customized resume summarie
 
 ---
 
-## 📷 Screenshots
-
-
-
----
 
 ## 🔮 Future Improvements
 
